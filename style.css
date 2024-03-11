@@ -1,0 +1,280 @@
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    background-color: #E6E6F0;
+    font-family: "Staatliches", sans-serif;
+    font-style: normal;
+    min-height: 100vh;
+  }
+  
+
+  body::before {
+    content: "";
+    width: 100vw;
+    height: 465px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #535971;
+}
+
+.page{
+  width: 878px;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 48px;
+
+}
+header{
+  color:white;
+  width: 350px;
+  margin-top: 140px;
+}
+
+header p{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  line-height: auto;
+}
+
+form{
+  border-radius:16px;
+  width: 750px;
+  background: #FFFFFF;
+  min-height: 400px;
+  margin:58px auto;
+  padding: 64px;
+}
+  
+fieldset{
+  border:none;
+  padding-bottom: 72px;
+}
+
+fieldset legend{
+  color: #535971;
+  font-size: 24px;
+  line-height: 34px;
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 16px;
+  width: 100%;
+
+}
+
+input{
+  font-family: 'Poppins', sans-serif;
+}
+
+.input-wrapper{
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  margin-top:60px;
+  gap:22px;
+}
+
+.input-wrapper label{
+  position:absolute;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  width: 100%;
+  top:492px;
+  margin-left:2px;
+}
+
+.input-wrapper label:nth-of-type(2) {
+  margin-left:375px;
+}
+
+
+.input-wrapper input{
+  background:#FAFAFC;
+  border: 2px solid #e9e9e9;
+  border-radius: 8px;
+  height: 56px;
+  width: 100%;
+  padding: 0 24px;
+}
+
+.input-wrapper2{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+span{
+  color:grey;
+  opacity: 0.5;
+  font-size: 12px;
+  margin-left: 7px;
+}
+
+.input-wrapper2 label{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  width: 100%;
+  margin-top:16px;
+}
+
+.input-wrapper2 input{
+  background: #FAFAFC;
+  border: 2px solid #e9e9e9;
+  border-radius: 8px;
+  height: 56px;
+  width:93%;
+  padding: 0 24px;
+}
+
+.input-wrapper3{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.input-wrapper3 label{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  width: 100%;
+  margin-top:16px;
+}
+
+.input-wrapper3 input{
+  background: #FAFAFC;
+  border: 2px solid #e9e9e9;
+  border-radius: 8px;
+  height: 56px;
+  width:93%;
+  padding: 0 24px;
+}
+
+.input-wrapper4{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 100%;
+}
+
+fieldset legend:nth-of-type(4) {
+  margin-top:40px;
+  border: none;
+}
+
+.input-wrapper4 label{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  width: 10%;
+  margin-top:16px;
+}
+
+.input-wrapper4 input:nth-of-type(1) {
+  width: 60%;
+}
+
+.input-wrapper4 input{
+  background: #FAFAFC;
+  border: 2px solid #e9e9e9;
+  border-radius: 8px;
+  height: 56px;
+  width: 20%;
+  padding: 0 24px;
+}
+
+.input-wrapper5{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 100%;
+}
+
+fieldset legend:nth-of-type(5) {
+  margin-top:40px;
+  border: none;
+}
+
+.input-wrapper5 label{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  width: 10%;
+  margin-top:16px;
+}
+
+.input-wrapper5 input{
+  background: #FAFAFC;
+  border: 2px solid #e9e9e9;
+  border-radius: 8px;
+  height: 56px;
+  width: 50%;
+  padding: 0 24px;
+}
+
+.input-wrapper5 input:nth-of-type(2),.input-wrapper5 input:nth-of-type(3){
+  margin-left:50px;
+  width: 88px;
+}
+
+.label-div{
+  font-family: 'Poppins',sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  width:100%;
+  height: 30px;
+  width: 730px;
+  margin-bottom: 8px;
+}
+
+.label-div p{
+  font-size: 14px;
+}
+
+.label-div p:nth-of-type(3) {
+  margin-left: 168px;
+}
+
+.label-div span{
+  margin-right:265px;
+}
+
+footer{
+  position:relative;
+}
+
+footer button{
+  font-family:"Staatliches", sans-serif;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  z-index:100;
+  width: 608px;
+  top:44px;
+  left: 72px;
+  right: 72px;
+  height: 55px;
+  background-color: #FF5374;
+  border-radius: 20px;
+  border:none;
+}
+
+footer::before {
+  content: "";
+  width: 878px;
+  border-radius: 8px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  height: 160px;
+  position: absolute;
+  margin:0 auto;
+  bottom: 100;
+  left:-64px;;
+  z-index: 1;
+  background: #535971;
+}
